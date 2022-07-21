@@ -1,0 +1,223 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+body{
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 110px;
+    background-color: #EDEBEB;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo{
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    color: #989898;
+}
+
+.logo img{
+    height: 120px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.formulario{
+    background-color:#FFFFFF;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:300px;
+    margin-left:300px;
+    text-align:left;
+    height: 400px;
+    padding: 20px;
+} 
+
+
+main{
+    background-color: #F8F8F8;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:100px;
+    margin-left:100px;
+    height: 430px;
+}
+
+footer{
+    background-color: #989898;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+    margin-left:0px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.textLeft{
+    text-align:left;
+}
+
+.textLeftI{
+    text-align:left;
+    display: inline-block;
+}
+
+.inputLeft{
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #f4f3f3;
+    width: 400px;
+    height: 24px;
+    box-shadow: 3px 1px 5px rgb(187, 187, 187);
+}
+
+.busquedaP{
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+    border: #f4f3f3;
+    padding: 5px;
+}
+
+.inputLeftDate{
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #f4f3f3;
+    width: 160px;
+    height: 24px;
+    box-shadow: 3px 1px 5px rgb(187, 187, 187);
+}
+
+.pagar{
+    background-color: #060606;
+    color: #f4f3f3;
+    margin-top:20px;
+    margin-left: 200px;
+    text-align:center;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 24px;
+    height: 40px
+}
+
+i.fa-solid{
+    font-size: 30px;
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.targetForm{
+    display: inline-block;
+}
+
+i.fa-brands{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.footerTop{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    color: #6c6c6c;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+
+ #navegador{
+    background-color: #CBCBCB;
+    height: 52px;
+    padding: 12px;
+    text-align: center;
+ }
+
+ #cardStatusId{
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .suscribirse{
+    margin-left: 120px;
+    height: 40px;
+    width: 200px;
+    border-radius: 24px;
+    background-color: #000000;
+    color: #f4f3f3;
+
+ }
+
+ .opcionSuscribirse{
+    margin-left:50px;
+    font-size: 20px;
+ }
+
+ .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    height: 320px;
+ }
+
+ .producto{
+    margin:10px;
+    padding: 1px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid rgb(194, 191, 191);
+    padding-bottom: 10px;
+  }
+
+  .producto img{
+    width: 200px;
+  }
+
+  .botonComprar{
+    background-color: #FC0000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+  }

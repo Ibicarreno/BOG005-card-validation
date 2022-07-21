@@ -3,12 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0188ab48fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <a href="#" class="logo">
+        <img src="./img/logo.png" alt="Logo del ecommerce">
+        <h2 class="nombre-ecommerce">DO! CAT SHOP</h2>
+      </a>
+      <a href="#" class="busqueda">
+        <input type="text" class="busquedaP" placeholder="Buscar">
+      </a>
+      <nav>
+        <a href="" class="nav link">Ingresar</a>
+        <a href="" class="nav link">Registrate</a>
+      </nav>
+    </header>
+    <nav>
+      <div id="navegador">
+        <ul>
+          <li><a href="./index.html">Productos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="producto">
+                <figure>
+                    <img src="./img/mirringo.jpg" alt="mirringo gaticos x1kg">
+                    <h3>Mirringo gaticos x1kg</h3>
+                    <h4>$11.900</h4>
+                </figure>
+                <p>Cantidad <input type="number" class="cant" min="0" max="10"></p>
+                <a href="./pago.html"><button class="botonComprar">Comprar  <i class="fa-solid fa-bag-shopping"></i></button></a>
+            </div>
+            <div class="producto">
+                <figure>
+                    <img src="./img/donkat.jpg" alt="Alimento para gatos Donkat gaticos x 1kg">
+                    <h3>Donkat gaticos x 1kg</h3>
+                    <h4>$12.490</h4>
+                </figure>
+                <p>Cantidad <input type="number" class="cant" min="0" max="10"></p>
+                <a href="./pago.html"><button class="botonComprar">Comprar  <i class="fa-solid fa-bag-shopping"></i></button></a>
+            </div>
+            <div class="producto">
+                <figure>
+                    <img src="./img/catshow.jpg" alt="Alimento para gatitos Cat Chow x1.5kg">
+                    <h3>Cat Chow gaticos x1.5kg</h3>
+                    <h4>$35.990</h4>
+                </figure>
+                <p>Cantidad <input type="number" class="cant" min="0" max="10"></p>
+                <a href="./pago.html"><button class="botonComprar">Comprar  <i class="fa-solid fa-bag-shopping"></i></button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+      <section>
+        <div class="footerTop">
+          <ul>
+            <div class="footerTop"><i class="fa-brands fa-twitter"></i></div>
+            <div class="footerTop"><i class="fa-brands fa-instagram-square"></i></div>
+            <div class="footerTop"><i class="fa-brands fa-facebook"></i></div>
+            <div class="footerTop"><h4 class="opcionSuscribirse">Suscribete y enterate de nuestra ofertas y productos</h4></div>
+            <div class="footerTop"><button onclick="" class="suscribirse">Suscribete</button></div>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

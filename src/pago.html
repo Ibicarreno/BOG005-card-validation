@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0188ab48fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <img src="./img/logo.png" alt="Logo del ecommerce">
+        <h2 class="nombre-ecommerce">DO! CAT SHOP</h2>
+      </a>
+      <a href="#" class="busqueda">
+        <input type="text" class="busquedaP" placeholder="Buscar">
+      </a>
+      <nav>
+        <a href="" class="nav link">Ingresar</a>
+        <a href="" class="nav link">Registrate</a>
+      </nav>
+    </header>
+    <nav>
+      <div id="navegador">
+        <ul>
+          <li><a href="./index.html">Productos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contactanos</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main>
+      <section>
+        <div>
+          <div class="formulario">
+            <div class="targetForm">
+              <i class="fa-solid fa-credit-card"></i>
+              <h2 class="textLeftI">Pago con tarjeta de credito</h2>
+            </div>
+            <p class="textLeft">Numero tarjeta</p>
+            <input type="text" id="cardNumberId" minlength="16"  maxlength="16" class="inputLeft" placeholder="Ingresa tu numero de tarjeta" required>
+            <p class="textLeft">Fecha de vencimiento</p>
+            <select name="mes" id="monthId" class="inputLeftDate" required>
+              <option value="">MM</option>
+              <option value="Enero">Enero</option>
+              <option value="Febrero">Febrero</option>
+              <option value="Marzo">Marzo</option>
+              <option value="Abril">Abril</option>
+              <option value="Mayo">Mayo</option>
+              <option value="Junio">Junio</option>
+              <option value="Julio">Julio</option>
+              <option value="Agosto">Agosto</option>
+              <option value="Septiembre">Septiembre</option>
+              <option value="Octubre">Octubre</option>
+              <option value="Noviembre">Noviembre</option>
+              <option value="Diciembre">Diciembre</option>
+            </select>
+            <select name="AA" id="yearId" class="inputLeftDate" required>
+              <option value="">AA</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+            </select>
+            <p class="textLeft">Codigo CCV</p>
+            <input type="number" id="ccvId" class="inputLeftDate" required>
+          <div>
+            <button onclick="validateCard()" class="pagar"> Pagar </button>
+            <div>
+              <p id="cardStatusId"></p>
+            </div>
+          </div>
+          </div>
+    </div>
+    </section>
+    </main>
+    <footer>
+      <section>
+        <div class="footerTop">
+          <ul>
+            <div class="footerTop"><i class="fa-brands fa-twitter"></i></div>
+            <div class="footerTop"><i class="fa-brands fa-instagram-square"></i></div>
+            <div class="footerTop"><i class="fa-brands fa-facebook"></i></div>
+            <div class="footerTop"><h4 class="opcionSuscribirse">Suscribete y enterate de nuestra ofertas y productos</h4></div>
+            <div class="footerTop"><button onclick="" class="suscribirse">Suscribete</button></div>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
