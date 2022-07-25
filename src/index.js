@@ -26,7 +26,7 @@ window.validateCard = function validateCard(){
 
     if (validateForm()==true){
         var inputCardNumber = document.getElementById("cardNumberId").value;
-        var cardStatus = validator.validationCard(inputCardNumber);
+        var cardStatus = validator.isValid(inputCardNumber);
         var maskChange= validator.maskify(inputCardNumber);
         var message;
         if (cardStatus==true){

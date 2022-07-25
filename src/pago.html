@@ -40,7 +40,7 @@
               <h2 class="textLeftI">Pago con tarjeta de credito</h2>
             </div>
             <p class="textLeft">Numero tarjeta</p>
-            <input type="text" id="cardNumberId" minlength="16"  maxlength="16" class="inputLeft" placeholder="Ingresa tu numero de tarjeta" required>
+            <input type="text" id="cardNumberId" maxlength="16" class="inputLeft" placeholder="Ingresa tu numero de tarjeta" pattern="[0-9]+" required>
             <p class="textLeft">Fecha de vencimiento</p>
             <select name="mes" id="monthId" class="inputLeftDate" required>
               <option value="">MM</option>
@@ -69,7 +69,7 @@
               <option value="29">29</option>
             </select>
             <p class="textLeft">Codigo CCV</p>
-            <input type="number" id="ccvId" class="inputLeftDate" required>
+            <input type="text" id="ccvId" class="inputLeftDate" maxlength="3" required>
           <div>
             <button onclick="validateCard()" class="pagar"> Pagar </button>
             <div>

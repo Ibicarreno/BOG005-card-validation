@@ -1,13 +1,7 @@
 const validator = {
-  validationCard,
+  isValid,
   maskify,
 };
-
-/*function maskify(maskCreditNumber){
-  let maskString = maskCreditNumber.replace(/.(?=.{4})/g, "#");
-
-  return maskString;
-}*/
 
 function maskify(numberCard){
   var maskifyNumber = numberCard;
@@ -22,8 +16,7 @@ function maskify(numberCard){
   return finalNumber;
 }
 
-function validationCard (cardNumber){ /* Funcion para la validacion del numero de tarjeta ingresada*/ 
-  if(cardNumber.length==16){ /* If que condiciones a que el numero de tarjeta tenga un largo de 16 digitos */
+function isValid(cardNumber){ /* Funcion para la validacion del numero de tarjeta ingresada*/ 
     var arrayCardNumber = cardNumber.split(""); /** Se convierte el string en un array utilizando .split */
     var reverseArrayCardNumber = arrayCardNumber.reverse(); /** Se invierten los numeros del array con .reverse */
     var sumNumbers=0; /** se crea variable que contenga todos las cantidades finales de los pares y los impares con el algoritmo de luhn */
@@ -52,12 +45,6 @@ function validationCard (cardNumber){ /* Funcion para la validacion del numero d
     else{
       return false;
     }
-
-
-  }
-  else {
-    return false;
-  }
 }
 
 
